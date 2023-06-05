@@ -11,8 +11,9 @@ fun main() {
 }
 
 fun Application.module() {
+    configureAuthentication()
     configureRouting()
     configureCallLogging()
     configureContentNegotiation()
-    configureAuthentication()
+
 }
