@@ -14,4 +14,5 @@ fun Application.module() {
     configureRouting()
     configureCallLogging()
     configureContentNegotiation()
+    configureAuthentication()
 }
